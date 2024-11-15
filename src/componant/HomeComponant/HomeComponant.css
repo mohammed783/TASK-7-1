@@ -1,0 +1,53 @@
+.compo-father{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    background-color: rgba(245, 222, 179, 0.209) ;
+    width: 35%;
+    justify-content: space-around;
+    padding-top:20px ;
+    height: 150px;
+    border-radius: 10px;
+}
+@media (max-width:1200px) {
+    .compo-father{
+        flex-direction: column;
+        width: 90%;
+        left: 5% ;
+        align-items: center;
+        height: 225px;
+        text-align: start;
+    }
+
+}
+.compo{
+    width: 40%;
+}
+.compo img{
+    width:80px ;
+    height: 40px;
+}
+.pro-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.line{
+    width: 1px;
+    height: 60%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.286);
+    top: 20%;
+}
+@media (max-width:1200px)
+{
+    .line{
+        width: 60%;
+        height: 1px;
+        top: 55%;
+    }
+
+}
+.stars-dad{
+    color: rgb(251 176 59);
+}

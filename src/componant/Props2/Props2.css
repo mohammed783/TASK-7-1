@@ -1,0 +1,15 @@
+.p2-dad{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.p2-dad .spe2{
+    color: transparent;
+    font-size: 50px;
+    -webkit-text-stroke:1px rgb(67 67 124) ;
+}
+.white-color{
+    -webkit-text-stroke:1px white ;
+    color: transparent;
+    font-size: 50px;
+}

@@ -1,0 +1,52 @@
+
+.stay .container{
+    background-color: var(--main-color);
+    height: 200px;
+    padding: 20px 20px 0px 20px;
+    border-radius: 10px;
+}
+@media (max-width:768px) {
+    .stay .container{
+        height: 300px;
+    }
+}
+.stay .pos-dad{
+    align-items: center;
+    position: relative;
+    height: 100%;
+}
+.stay-img-dad{
+    position: absolute;
+    bottom: 0;
+}
+@media (max-width:1200px) {
+    .stay-img-dad{
+        display: none;
+    }
+}
+.wellstay{
+    margin-left: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+@media (max-width:1200px) {
+    .wellstay{
+        margin-left: 10px;
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 40px;
+    }
+}
+.wellstay .stay-para{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 40%;
+}
+.wellstay button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 0;
+}

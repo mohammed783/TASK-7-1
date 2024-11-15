@@ -1,0 +1,92 @@
+.elva-dad{
+    padding-top: 40px;
+    height: 1075px;
+}
+@media (max-width:992px) {
+    .elva-dad{
+        height: 900px;
+    }
+}
+@media (max-width:786px) {
+    .elva-dad{
+        height: 620px;
+    }
+}
+@media (max-width:768px) {
+    .elva-dad{
+        height: 500px;
+    }
+}
+.elva-dad .container{
+    position: relative;
+}
+
+.elva1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+.icons-elva{
+    display: flex;
+    width: 100px;
+    flex-wrap: wrap;
+    align-items: center;
+justify-content: space-between;
+}
+.elva1 .spe-elva{
+    background-color: var(--main-color);
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px ; 
+    position: relative;
+    cursor: pointer;
+}
+.speee{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50% , -50%);
+}
+.elva-ico1{
+    cursor: pointer;
+}
+.elva2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+@media (max-width:786px) {
+    .elva2 .hide{
+        display: none;
+    }
+    .elva2{
+        justify-content: center;
+        align-items: center;
+    }
+}
+.vid{
+    margin-top: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: -500;
+}
+.vid video{
+    width: 100%;
+    border-radius: 16px;
+}
+@media (max-width:768px) {
+
+    .vid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .vid video{
+        width: 80%;
+    }
+}
+

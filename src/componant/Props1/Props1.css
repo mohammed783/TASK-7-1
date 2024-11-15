@@ -1,0 +1,38 @@
+.props1-dad{
+    background-color: rgb(243 247 251);
+    padding: 20px;
+    width: 300px;
+    border-radius: 16px;
+    border: solid 1px rgb(224 230 255);
+}
+/* @media (max-width:1200px) {
+    .props1-dad{
+        width: 45%;
+    }
+}
+@media (max-width:1200px) {
+    .props1-dad{
+        width: 45%;
+    }
+} */
+.props1-dad h4{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.props1-dad p {
+    color: rgb(132 144 166);
+}
+.props1-dad button{
+    color: rgb(121 121 132);
+    padding: 10px 20px;
+    border: solid 1px rgb(224 230 255);
+    background-color: inherit;
+    border-radius:30px ;
+}
+.props-icon-dad{
+    padding: 10px;
+    border: solid 1px rgb(224 230 255);
+    width: fit-content;
+    border-radius: 16px;
+    margin-bottom: 15px;
+}

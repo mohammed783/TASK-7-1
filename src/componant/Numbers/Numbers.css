@@ -1,0 +1,11 @@
+.numbers{
+    padding-top: 400px;
+    background-color: rgb(24 24 94);
+    color: white;
+    padding-bottom: 50px;
+}
+.numbers-flex{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}

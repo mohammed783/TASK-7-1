@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Home{
+    background-color: var(--main-color);
+    height:calc(100vh - 60px);
+    width: 100%;
+    color: white;
+    position: relative;
+    padding-top:100px ;
+}
+@media (max-width:1200px)
+{
+    .Home{
+        height: 1530px;
+    }
+    
+}
+
+.homes-father{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width:1200px)
+{
+    .homes-father{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+.home1{
+    width: 50%;
+    z-index: 2;
+}
+@media (max-width:1200px)
+{
+    .home1{
+        width: 90%;
+        z-index: 1;
+        text-align: start;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+.home-shape1{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+}
+@media (max-width:1200px){
+    .home-shape1{
+        display: none;
+    }
+}
+.Home .par-1{
+    padding: 10px;
+    border: solid 1px white;
+    border-radius: 25px;
+    width: fit-content;
+    font-weight: bold;
+}
+@media (max-width:1200px) {
+    .Home .par-1{
+        width: 80%;
+        margin-top: 20px;
+    }
+}
+@media (max-width:768px) {
+    .Home .par-1{
+        width: 100%;
+    }
+}
+.home-icon-1{
+    font-size: 20px;
+    font-weight: bold ; 
+}
+.Home h1{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.home1 ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 85%;
+    padding-left: 0;
+}
+@media (max-width:1200px) {
+    .home1 ul{
+        justify-content: center;
+    }
+}
+.home1 ul li {
+    margin-right: 5px;
+}
+@media (max-width:1200px) {
+    .home1 ul li {
+     width: 100%;
+    }
+}
+.ch1{
+    margin-right: 5px;
+}
+.home1 button{
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.heroman{
+    width: 373px;
+    position: absolute;
+    right: 15%;
+    z-index: 1;
+    bottom: 0;
+}
+@media (max-width:1200px) {
+    .heroman{
+        position: inherit;
+    }   
+}
+.Shape-right{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    width: 500px;
+}
+@media (max-width:1200px)
+{
+    .Shape-right{
+        display: none;
+    }
+}
+
+.circle{
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -56px;
+    left: 47%;
+    z-index: 11;
+    border: 20px solid white;
+}
+@media (max-width:1200px)
+{
+    .circle{
+        display: none;
+    }
+}
+
+

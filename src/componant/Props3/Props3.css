@@ -1,0 +1,51 @@
+.p3-granddad-white
+{
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    color: rgb(158 166 183);
+}
+.p3-granddad-blue{
+    background-color: var(--main-color);
+    padding: 20px;
+    border-radius: 16px;
+    color: rgb(158 166 183);
+}
+.p3-flex{
+    display: flex;
+    margin-top: 20px;
+}
+.p3-flex img{
+    margin-right: 10px;
+}
+.name-b{
+    font-weight: bold;
+    color: black;
+}
+.name-w{
+    font-weight: bold;
+    color: white;
+}
+.p3-felx-dad{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.que-dad{
+    font-size: 40px;
+}
+
+.que-dad-white{
+    color: white;
+    font-size: 40px;
+}
+.p3-p{
+    margin-top: 20px;
+}
+.p3-p-w{
+    color: white;
+    margin-top: 20px;
+}
+.pe-info-white{
+    color: white;
+}

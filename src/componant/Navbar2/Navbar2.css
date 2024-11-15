@@ -1,0 +1,70 @@
+.nav-s{
+    display: flex ; 
+    width: 100%;
+    position: relative;
+}
+.nav-s .container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-s .container ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 20px;
+}
+.nav-s .container ul li a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+.r-side{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 100px;
+} 
+.r-side .myicon{
+    margin-right: 20px;
+}
+.r-side button{
+background-color: white;
+border: 0;
+border: 30px;
+z-index: 1;
+}
+@media (max-width:992px){
+    .nav-s{
+        align-items: start;
+    }
+    .nav-s .menu{
+        display: flex;
+    }
+    .nav-s ul{
+        flex-direction: column;
+        align-items: start;
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+    }
+    .nav-s ul.open{
+        display: flex;
+    }
+    .nav-s ul li{
+        margin: 5px;
+        width: 100%;
+        text-align: center;
+    } 
+    .nav-s ul li a{
+        padding: 5px;
+    }
+    .nav-s button{
+        display: none;
+    } 
+    .icoon{
+        margin-right: 50px;
+    }
+}

@@ -1,0 +1,77 @@
+.about .nav-s .container{
+    width: 100%  ;
+    margin: 0 ;
+}
+.conat-hero{
+    background-image: url("../../assets/imges/breadcrumb.webp");
+    background: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.simple-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media (max-width:992px) {
+    .simple-sec .hide{
+        display: none;
+    }
+    .simple-sec
+    {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.about-1-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-1-flex button{
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    height: 50px;
+    border: 0;
+}
+.cards-5-dad{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media (max-width:992px) {
+    .cards-5-dad{
+        justify-content: center;
+        align-items: center;
+    }
+}
+.img-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.simple2 p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.simple2{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+@media (max-width:992px) {
+    .img-flex{
+        justify-content: center;
+        align-items: center;
+    }
+}

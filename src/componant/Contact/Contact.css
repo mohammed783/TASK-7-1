@@ -1,0 +1,56 @@
+.Conatact-n-simple{
+    display: flex;
+    justify-content: space-around;
+}
+.slid1 , 
+.slide2{
+    width: 400px;
+}
+.slid1 .slid1-son{
+    background-color: var(--main-color);
+    color: white;
+    padding: 30px;
+}
+.first , 
+.sec , 
+.thr {
+    border-bottom: solid 1px white;
+    display: flex;
+    align-items: center;
+}
+.vid-dad img{
+   width: 400px;
+}
+.icon{
+    font-size: 25px;
+    margin-right: 20px;
+    border: solid 1px white;
+    border-radius: 50%;
+}
+.top-form{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.inner-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bot-form{
+    display: flex;
+    flex-direction: column;
+
+}
+.area{
+    width: 100%;
+    border-right: blue 1px solid;
+}
+.slide2 button{
+    background-color: var(--main-color);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: 0;
+    margin-top: 25px;
+}
