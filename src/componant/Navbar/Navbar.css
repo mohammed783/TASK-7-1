@@ -18,6 +18,9 @@ nav{
     margin: auto;
     align-items: center;
 }
+nav.active{
+    background-color: aquamarine;
+}
 nav img{
     width: 120px;
 }

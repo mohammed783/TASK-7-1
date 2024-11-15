@@ -8,11 +8,20 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import logoimg from "../../assets/imges/logo.svg" ; 
 function Navbar(){
 
-    const [menuOpen , setMenuOpen] = useState(false)
+    const [menuOpen , setMenuOpen] = useState(false) ; 
+    const [Navbar,setNavbar] = useState (false) ; 
 
+    const ChangeBackground = () =>{
+     if(window.screenY >= 50)
+      setNavbar(false)
+    else 
+    setNavbar(true)
+    }
+
+    window.addEventListener('scroll' , ChangeBackground ) ; 
     return(
       <div className="container_nav">
-        <nav>
+        <nav className={Navbar ? "active" : ""}>
         <img src={logoimg} alt="logo image" />
         <div className="menu" onClick={() => {
           setMenuOpen(!menuOpen) ;

@@ -15,7 +15,7 @@ import Price from "../Price/Price.jsx";
 import Test from "../Test/Test.jsx";
 import Stay from "../Stay/Stay.jsx"
 import Footer from "../Footer/Footer.jsx"
-
+import Feat from "../Feat/Feat.jsx";
 import Navbar from "../Navbar/Navbar.jsx";
 
 export default function Home() {
@@ -61,6 +61,7 @@ export default function Home() {
         <Numbers />
         <Price />
         <Test />
+        <Feat />
         <Stay />
         <Footer />
     </>

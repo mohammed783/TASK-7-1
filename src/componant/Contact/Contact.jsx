@@ -8,6 +8,7 @@ import { MdOutlinePermPhoneMsg } from "react-icons/md";
 import { MdAttachEmail } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
 //import map from "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.5222015313834!2d36.273951175536624!3d33.51380617336453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518e0b2fd166793%3A0x1e5a4e39ab5956f3!2sUmayyad%20Square!5e0!3m2!1sen!2s!4v1724169182886!5m2!1sen!2s"
+//import Map2 from "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26621.04853242445!2d36.24589171453939!3d33.484954846015434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518e0bda5e95413%3A0x60e56092e1bd5be9!2sKafar%20Sousah%2C%20Damascus%2C%20Syria!5e0!3m2!1sen!2s!4v1731696992646!5m2!1sen!2s"
 export default function Contact() {
   return (
     <div>
@@ -77,10 +78,9 @@ export default function Contact() {
       </div>
       </section>
       <section className="map">
-      {/* <div >
-    <iframe src={map} width="300" height="300" 
-     allowfullscreen="" loading="lazy" ></iframe>
-      </div> */}
+      <div >
+     {/* <iframe src={Map2} width="600" height="450" allowfullscreen="" loading="lazy"></iframe> */}
+      </div>
       </section>
       <Footer />
     </div>
